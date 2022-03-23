@@ -1,10 +1,28 @@
-* {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif;
-
+body { 
     color:rgb(32, 32, 32);
-    margin-left: 1rem;
     background-color: #f1e1e4;
+   }
+
+.container {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
+.picture {
+   display: flex;
+   flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: #8c73a3
+}
+
 
 a {
     font-weight: bold;
@@ -13,9 +31,16 @@ a {
 
 img {
     max-width: 300px;
-    max-height: auto;
-    ;
-    
+    max-height: fit-content;  
+    border-radius: 5%; 
+    margin-right: 15px;
+}
+
+.recipe {
+    background-color: #ffffff;
+    padding: 5px 20px 20px 20px;
+    border-radius: 5%;
+    margin-top: 20px;
 }
 
 ol {
