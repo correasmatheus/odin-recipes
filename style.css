@@ -1,0 +1,28 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif;
+
+    color:rgb(32, 32, 32);
+    margin-left: 1rem;
+    background-color: #f1e1e4;
+}
+
+a {
+    font-weight: bold;
+    color: #184d63
+}
+
+img {
+    max-width: 300px;
+    max-height: auto;
+    ;
+    
+}
+
+ol {
+    margin-left: 0;
+}
+
+ul {
+    margin-left: 0;
+}
+
